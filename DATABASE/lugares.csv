@@ -1,0 +1,124 @@
+Id_Lugar;Nombre_Lugar;Tipo_Lugar;Id_Lugar_Padre
+1;Alemania;P;null
+2;Australia;P;null
+3;Brasil;P;null
+4;Canadá;P;null
+5;Dinamarca;P;null
+6;España;P;null
+7;Estados Unidos;P;null
+8;Finlandia;P;null
+9;Francia;P;null
+10;Holanda;P;null
+11;Italia;P;null
+12;Japón;P;null
+13;Noruega;P;null
+14;Reino Unido;P;null
+15;Singapur;P;null
+16;Suecia;P;null
+17;Argentina;P;null
+18;Austria;P;null
+19;Bélgica;P;null
+20;Irlanda;P;null
+21;México;P;null
+22;Polonia;P;null
+23;Portugal;P;null
+24;Suiza;P;null
+25;Venezuela;P;null
+101;Berlín;C;1
+102;Frankfurt;C;1
+103;Aachen;C;1
+104;Brandenburg;C;1
+105;Cunewalde;C;1
+106;Frankfurt a.M. ;C;1
+107;Köln;C;1
+108;Leipzig;C;1
+109;Mannheim;C;1
+110;München;C;1
+111;Münster;C;1
+112;Stuttgart;C;1
+113;Cuxhaven;C;1
+201;Melbourne;C;2
+202;Sydney;C;2
+301;São Paulo;C;3
+302;Campinas;C;3
+303;Resende;C;3
+304;Río de Janeiro;C;3
+401;Montréal;C;4
+402;Ste-Hyacinthe;C;4
+404;Tsawassen;C;4
+403;Vancouver;C;4
+501;Lyngby;C;5
+502;Århus;C;5
+503;København;C;5
+601;Oviedo;C;6
+602;Barcelona;C;6
+603;Madrid;C;6
+604;Sevilla;C;6
+701;New Orleans;C;7
+702;Ann Arbor;C;7
+703;Bend;C;7
+704;Boston;C;7
+705;Albuquerque;C;7
+706;Anchorage;C;7
+707;Boise;C;7
+708;Butte;C;7
+709;Elgin;C;7
+710;Eugene;C;7
+711;Kirkland;C;7
+712;Lander;C;7
+713;Portland;C;7
+714;San Francisco;C;7
+715;Seattle;C;7
+716;Walla Walla;C;7
+717;Redmond;C;7
+718;Tacoma;C;7
+801;Lappeenranta;C;8
+802;Helsinki;C;8
+803;Oulu;C;8
+901;París;C;9
+902;Montceau;C;9
+903;Annecy;C;9
+904;Lille;C;9
+905;Lyon;C;9
+906;Marseille;C;9
+907;Nantes;C;9
+908;Reims;C;9
+909;Strasbourg;C;9
+910;Toulouse;C;9
+911;Versailles;C;9
+912;Estrasburgo;C;9
+1001;Zaandam;C;10
+1101;Ravenna;C;11
+1102;Salerno;C;11
+1103;Bérgamo;C;11
+1104;Reggio Emilia;C;11
+1105;Torino;C;11
+1201;Tokyo;C;12
+1202;Osaka;C;12
+1301;Sandvika;C;13
+1302;Stavern;C;13
+1401;Londres;C;14
+1402;Manchester;C;14
+1403;Colchester;C;14
+1404;Cowes;C;14
+1501;Singapore;C;15
+1601;Göteborg;C;16
+1602;Stockholm;C;16
+1603;Bräcke;C;16
+1604;Luleå;C;16
+1701;Buenos Aires;C;17
+1801;Graz;C;18
+1802;Salzburg;C;18
+1901;Bruxelles;C;19
+1902;Charleroi;C;19
+1903;Bruselas;C;19
+2001;Cork;C;20
+2101;México D.F.;C;21
+2201;Warszawa;C;22
+2301;Lisboa;C;23
+2401;Bern;C;24
+2402;Genève;C;24
+2501;Barquisimeto;C;25
+2502;Caracas;C;25
+2503;I. de Margarita;C;25
+2504;San Cristóbal;C;25

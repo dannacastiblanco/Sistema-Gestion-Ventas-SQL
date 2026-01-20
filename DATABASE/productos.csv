@@ -1,0 +1,78 @@
+Id_Producto;Nombre_Producto;Id_Proveedor;Id_Categoria;Fecha_Vencimiento;Cantidad_por_Unidad;Precio_por_Unidad;Unidades_en_Existencia;Unidades_Pedidas;Nivel_de_Nuevo_Pedido;Suspendido
+1;Algas Konbu;16;7;19/12/2022;caja 2 kg;6;24;0;5;N
+2;Arenque ahumado;14;7;10/5/2022;paq. 1k;9,5;5;70;15;N
+3;Arenque blanco del noroeste;19;7;30/7/2022;10 - vasos 200 g;25,89;10;0;15;N
+4;Arenque salado;14;7;19/8/2022;4 - vasos 450 g;12;95;0;0;N
+5;Azúcar negra Malacca;13;3;7/2/2022;20 - bolsas 2 kg;19,45;27;0;15;N
+6;Barras de pan de Escocia;26;8;27/3/2022;10 cajas x 8 porc.;12,5;6;10;15;N
+7;Bollos de pan de Wimmer;24;5;13/10/2022;20 bolsas x 4 porc.;33,25;22;80;30;N
+8;Bollos de Sir Rodney's;26;8;21/4/2022;24 paq. x 4 piezas;10;3;40;5;N
+9;Buey Mishi Kobe;28;2;26/7/2022;18 - paq. 500 g;97;29;0;0;S
+10;Café de Malasia;13;1;1/6/2022;16 - latas 500 g;46;17;10;25;N
+11;Camembert Pierrot;8;6;27/12/2022;15 - paq. 300 g;34;19;0;0;N
+12;Caracoles de Borgoña;4;7;24/9/2022;24 porc.;13,25;62;0;20;N
+13;Carne de cangrejo de Boston;17;7;27/6/2022;24 - latas 4 l;18,4;123;0;30;N
+14;Caviar rojo;27;7;6/12/2022;24 - frascos150 g;15;101;0;5;N
+15;Cereales para Filo;9;5;24/7/2022;16 - cajas 2 kg;7;38;0;25;N
+16;Cerveza Klosterbier Rhönbräu;24;1;31/10/2022;24 - bot. 0,5 l;7,75;125;0;25;N
+17;Cerveza Laughing Lumberjack;2;1;10/10/2022;24 - bot. 12 l;14;52;0;10;N
+18;Cerveza negra Steeleye;2;1;20/5/2022;24 - bot. 12 l;18;20;0;15;N
+19;Cerveza Outback;22;1;20/9/2022;24 - bot. 355 ml;15;15;10;30;N
+20;Cerveza Sasquatch;2;1;27/8/2022;24 - bot. 12 l;14;111;0;15;N
+21;Cerveza tibetana Barley;5;1;30/4/2022;24 - bot. 12 l;19;17;40;25;N
+22;Chocolate blanco;12;8;4/5/2022;12 - barras 100 g;16,25;65;0;30;N
+23;Chocolate holandés;29;8;26/2/2022;10 paq.;12,75;15;70;25;N
+24;Chocolate Schoggi;11;8;24/12/2022;100 piezas 100 g;43,9;49;0;30;N
+25;Col fermentada Rössle;24;4;16/9/2022;25 - latas 825 g;45,6;26;0;0;S
+26;Cordero Alice Springs;22;2;30/2/2022;20 - latas 1 kg;39;0;0;0;S
+27;Crema de almejas estilo Nueva Inglaterra;17;7;3/10/2022;12 - latas 12 l;9,65;85;0;10;N
+28;Crema de chocolate y nueces NuNuCa;11;8;2/1/2022;20 - vasos  450 g;14;76;0;30;N
+29;Crema de queso Fløtemys;20;6;4/6/2022;10 - paq. 500 g;21,5;26;0;0;N
+30;Cuajada de judías;16;4;4/3/2022;40 - paq. 100 g;23,25;35;0;0;N
+31;Empanada de carne;9;2;28/3/2022;48 porc.;32,8;0;0;0;S
+32;Empanada de cerdo;15;2;8/8/2022;16 tartas;7,45;21;0;10;N
+33;Escabeche de arenque;27;7;13/12/2022;24 - frascos 250 g;19;112;0;20;N
+34;Especias Cajun del chef Anton;18;3;4/2/2022;48 - frascos 6 l;22;53;0;0;N
+35;Especias picantes de Luisiana;18;3;24/7/2022;24 - frascos 8 l;17;4;100;20;N
+36;Galletas Zaanse;29;8;18/7/2022;10 - cajas 4 l;9,5;36;0;0;N
+37;Gnocchi de la abuela Alicia;21;5;12/12/2022;24 - paq. 250 g;38;21;10;30;N
+38;Langostinos tigre Carnarvon;22;7;11/8/2022;paq. 16 kg;62,5;42;0;0;N
+39;Licor Cloudberry;12;1;25/11/2022;500 ml;18;57;0;20;N
+40;Licor verde Chartreuse;1;1;31/8/2022;750 cc por bot.;18;69;0;5;N
+41;Manzanas secas Manjimup;9;4;28/10/2022;50 - paq. 300 g;53;20;0;10;N
+42;Mermelada de grosellas de la abuela;10;3;19/1/2022;12 - frascos 8 l;25;120;0;25;N
+43;Mermelada de Sir Rodney's;26;8;8/12/2022;30 cajas regalo;81;40;0;0;N
+44;Mezcla Gumbo del chef Anton;18;3;26/2/2022;36 cajas;21,35;0;0;0;S
+45;Ositos de goma Gumbär;11;8;15/6/2022;100 - bolsas 250 g;31,23;15;0;0;N
+46;Pan de centeno crujiente estilo Gustaf's;23;5;27/3/2022;24 - paq. 500 g;21;104;0;25;N
+47;Pan fino;23;5;22/11/2022;12 - paq. 250 g;9;61;0;25;N
+48;Pastas de té de chocolate;26;8;29/4/2022;10 cajas x 12 piezas;9,2;25;0;5;N
+49;Paté chino;15;2;18/1/2022;24 cajas x 2 tartas;24;115;0;20;N
+50;Peras secas orgánicas del tío Bob;10;4;15/7/2022;12 - paq. 1 kg;30;15;0;10;N
+51;Pez espada;28;7;25/11/2022;12 - frascos 200 ml;31;31;0;0;N
+52;Postre de merengue Pavlova;22;8;14/12/2022;32 - cajas 500 g;17,45;29;0;10;N
+53;Queso Cabrales;3;6;16/6/2022;paq. 1 kg;21;22;30;30;N
+54;Queso de cabra;20;6;26/12/2022;500 g;2,5;112;0;20;N
+55;Queso de soja Longlife;28;4;29/4/2022;paq. 5 kg;10;4;20;5;N
+56;Queso gorgonzola Telino;7;6;15/12/2022;12 - paq. 100 g;12,5;0;70;20;N
+57;Queso Gudbrandsdals;20;6;1/12/2022;paq. 10 kg;36;26;0;15;N
+58;Queso Manchego La Pastora;3;6;21/10/2022;10 - paq. 500 g;38;86;0;0;N
+59;Queso Mascarpone Fabioli;7;6;3/6/2022;24 - paq. 200 g;32;9;40;25;N
+60;Queso Mozzarella Giovanni;7;6;3/7/2022;24 - paq. 200 g;34,8;14;0;0;N
+61;Raclet de queso Courdavault;8;6;24/9/2022;paq. 5 kg;55;79;0;0;N
+62;Raviolis Angelo;21;5;3/12/2022;24 - paq. 250 g;19,5;36;0;20;N
+63;Refresco Guaraná Fantástica;25;1;11/4/2022;12 - latas 355 ml;4,5;20;0;0;S
+64;Regaliz;12;8;23/3/2022;24 - paq. 50 g;20;10;60;15;N
+65;Salchicha Thüringer;24;2;2/2/2022;50 bolsas x 30 salch;123,79;0;0;0;S
+66;Salmón ahumado Gravad;27;7;17/8/2022;12 - paq. 500 g;26;11;50;25;N
+67;Salsa de arándanos Northwoods;10;3;25/5/2022;12 - frascos 12 l;40;6;0;0;N
+68;Salsa de pimiento picante de Luisiana;18;3;3/1/2022;32 - bot. 8 l;21,05;76;0;0;N
+69;Salsa de soja baja en sodio;16;3;14/5/2022;24 - bot. 250 ml;15,5;39;0;5;N
+70;Salsa verde original Frankfurter;24;3;8/9/2022;12 cajas;13;32;0;15;N
+71;Sandwich de vegetales;22;3;18/8/2022;15 - frascos 625 g;43,9;24;0;5;N
+72;Sirope de arce;6;3;9/4/2022;24 - bot. 500 ml;28,5;113;0;25;N
+73;Sirope de regaliz;5;3;13/2/2022;12 - bot. 550 ml;10;13;70;25;N
+74;Tallarines de Singapur;13;5;14/2/2022;32 - 1 kg paq.;14;26;0;0;S
+75;Tarta de azúcar;6;8;31/2/2022;48 tartas;49,3;17;0;0;N
+76;Té Dharamsala;5;1;20/6/2022;10 cajas x 20 bolsas;18;39;0;10;N
+77;Vino Côte de Blaye;1;1;6/3/2022;12 - bot. 75 cl;263,5;17;0;15;N

@@ -1,0 +1,59 @@
+/*======================================*/
+/* Bases de Datos Sistema de Información de Pedidos.            /
+/*======================================*/
+
+-- Archivo: crea_Restricciones.sql
+--Este script Crea las restricciones de la Base de Datos Pedidos
+--Autor: JENNY AMPARO ROSALES AGREDO
+--Fecha de Creación:  26-05-2025
+--Modificó:
+--Fecha de modificación:
+--
+
+
+alter table CATEGORIAS add(
+   constraint CATEGORIAS_PK_Id_Categoria primary key (Id_Categoria)
+);
+
+alter table PRODUCTOS add(
+   constraint PRODUCTOS_PK_Id_producto primary key (Id_producto),
+   constraint PROD_FK_CAT_Id_Categoria foreign key (Id_Categoria) references CATEGORIAS (Id_Categoria),
+   constraint PRODU_CK_Suspendido check (Suspendido in ('N'/*No*/,'S'/*Si*/))
+);
+
+alter table CLIENTES add(
+   constraint CLIENTES_PK_Id_Cliente primary key (Id_Cliente),
+   constraint CLI_FK_LUG_Id_Lugar foreign key (Id_Lugar) references LUGARES (Id_Lugar)
+);
+
+
+alter table EMPLOYEES ADD(
+   CONSTRAINT EMP_EMP_ID_PK PRIMARY KEY (EMPLOYEE_ID),
+   CONSTRAINT EMP_DEPT_FK FOREIGN KEY (DEPARTMENT_ID) REFERENCES DEPARTMENTS (DEPARTMENT_ID),
+   CONSTRAINT EMP_FK_LUG_ID_LUGAR_NACE FOREIGN KEY (ID_LUGAR_NACE) REFERENCES LUGARES (ID_LUGAR),
+   CONSTRAINT EMP_FK_LUG_ID_LUGAR_TRABAJA FOREIGN KEY (ID_LUGAR_TRABAJA) REFERENCES LUGARES (ID_LUGAR),
+   CONSTRAINT EMP_FK_LUG_ID_LUGAR_VIVE FOREIGN KEY (ID_LUGAR_VIVE) REFERENCES LUGARES (ID_LUGAR),
+   CONSTRAINT EMP_MANAGER_FK FOREIGN KEY (MANAGER_ID) REFERENCES EMPLOYEES (EMPLOYEE_ID)
+   ADD CONSTRAINT EMP_SALARY_MIN CHECK (salary > 0)
+);
+
+alter table PEDIDOS add(
+   constraint PEDIDOS_PK_Id_Pedido primary key (Id_Pedido),
+   constraint PED_FK_CLI_Id_Cliente foreign key (Id_Cliente) references CLIENTES (Id_Cliente),
+   constraint PED_FK_EMP_Id_emp foreign key (employee_id) references EMPLOYEES (employee_id),
+   constraint PEDIDOS_CK_Forma_Pago check (Forma_Pago in ('E'/*Efectivo*/,'C'/*Credito*/))
+);
+
+--RENAME tpedidos TO pedidos
+
+--drop table pedidos cascade constraints;
+--select * from employees
+
+alter table DETALLE_PEDIDO add(
+   constraint DET_PED_PK_Id_ped_Id_Prod primary key (Id_pedido,Id_Producto),
+   constraint DET_PED_FK_pedidos_Id_pedido foreign key (Id_pedido) references PEDIDOS (Id_pedido),
+   constraint DET_PED_FK_pedidos_Id_Producto foreign key (Id_Producto) references PRODUCTOS (Id_Producto)
+);
+
+      constraint CKC_TIPO_LUGAR_LUGARES check (TIPO_LUGAR is null or (TIPO_LUGAR in ('''P''/*Pais*/','''C''/*Ciudad*/'))),
+   constraint PK_LUGARES primary key (ID_LUGAR)

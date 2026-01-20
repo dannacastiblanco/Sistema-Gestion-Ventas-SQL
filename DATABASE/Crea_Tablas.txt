@@ -1,0 +1,94 @@
+/*======================================*/
+/* Bases de Datos Sistema de Información de Pedidos.            /
+/*======================================*/
+
+-- Archivo: crea_Tablas.sql
+--Este script Crea las tablas de la Base de Datos Pedidos
+--Autor: JENNY AMPARO ROSALES AGREDO
+--Fecha de Creación:  26-05-2025
+--Modificó:
+--Fecha de modificación:
+--
+
+
+create table CATEGORIAS 
+(
+   Id_Categoria			number                        not null,
+   Nombre_Categoria  	       	varchar2(20)                  not null,
+   Descripcion			varchar2(65)                  not null
+);
+
+
+create table PRODUCTOS 
+(
+   Id_Producto			number			not null,
+   Nombre_Producto  	       	varchar2(50)            not null,
+   Id_Categoria			number	                not null,
+   Fecha_Vencimiento		Date,
+   Cantidad_por_Unidad		varchar2(25)		not null,
+   Precio_por_Unidad		number(5,2)             not null,
+   Unidades_en_Existencia	number		        not null,
+   Unidades_Pedidas		number                  not null,
+   Nivel_de_Nuevo_Pedido 	number                  not null,
+   Suspendido 			varchar2(1)		not null
+);
+
+create table LUGARES (
+   ID_LUGAR             NUMBER(6)             not null,
+   LUG_ID_LUGAR         NUMBER(6),
+   NOMBRE_LUGAR         VARCHAR2(26),
+   TIPO_LUGAR           VARCHAR2(26)        
+
+create table CLIENTES 
+(
+   Id_Cliente			number			not null,
+   Codigo_Cliente  	       	varchar2(10)            not null,
+   Nombre_Compañía		varchar2(50)		not null,
+   Direccion			varchar2(50)		not null,
+   Id_Lugar			number                  not null,
+   Codigo_postal		varchar2(15),
+   Telefono			varchar2(20)		not null,
+   Fax				varchar2(20)
+);
+
+CREATE TABLE EMPLOYEES 
+(
+  EMPLOYEE_ID                   number(6, 0) NOT NULL, 
+  FIRST_NAME                    VARCHAR2(20) NOT NULL, 
+  LAST_NAME                     VARCHAR2(25) NOT NULL, 
+  EMAIL                         VARCHAR2(25) NOT NULL, 
+  PHONE_NUMBER                  VARCHAR2(20), 
+  HIRE_DATE                     DATE         NOT NULL, 
+  JOB_ID                        VARCHAR2(10) NOT NULL, 
+  SALARY                        NUMBER(8, 2), 
+  COMMISSION_PCT                NUMBER(2, 2), 
+  MANAGER_ID                    NUMBER(6, 0), 
+  DEPARTMENT_ID                 NUMBER(4, 0), 
+  ID_LUGAR_NACE                 NUMBER(5, 0), 
+  ID_LUGAR_VIVE                 NUMBER(5, 0), 
+  ID_LUGAR_TRABAJA              NUMBER(5, 0) 
+) 
+
+
+create table PEDIDOS
+(
+   Id_Pedido		number		not null,
+   Id_Cliente  	       	number		not null,
+   EMPLOYEE_ID		number		not null,
+   Fecha_Pedido		Date            not null,
+   Fecha_Entrega	Date		not null,
+   Fecha_Envio		Date,	
+   Valor_Envio		number(6,2)	not null,
+   Id_Destinatario	number		not null,
+   Forma_Pago		varchar2(1)	not null
+);
+
+
+create table DETALLES_PEDIDOS
+(
+   Id_pedido		number                  not null,
+   Id_Producto		number                  not null,
+   Precio_Unidad	number(5,2)		not null,
+   Cantidad		number			not null,
+   Descuento 		number(2,2)		not null
+);
